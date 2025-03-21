@@ -57,3 +57,8 @@ function showData() {
     }
   });
 }
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    addBtn.click();
+  }
+});
